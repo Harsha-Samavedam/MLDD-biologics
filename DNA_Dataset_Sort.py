@@ -13,7 +13,6 @@ def get_textfiles(family,folder_path):
     for file in pdb_ids:
         if file.endswith(".txt"):
             print(file, family)
-            timepass.append(file)
         elif file.endswith(".ini") or file==".DS_Store":
             pass #some of the subfolders had desktop.ini
         else:
